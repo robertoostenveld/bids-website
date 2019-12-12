@@ -51,12 +51,12 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <a href="/index.html             " class="btn">ABOUT</a>
-      <a href="/benefits.html          " class="btn">BENEFITS</a>
-      <a href="/specification.html     " class="btn">THE SPECIFICATION</a>
-      <a href="/getting_started.html   " class="btn">GETTING STARTED</a>
-      <a href="/get_involved.html      " class="btn">GET INVOLVED</a>
-      <a href="/acknowledgements.html  " class="btn">ACKNOWLEDGMENTS</a>
+      <a href={{ site.baseurl }}"/index.html             " class="btn">ABOUT</a>
+      <a href={{ site.baseurl }}"/benefits.html          " class="btn">BENEFITS</a>
+      <a href={{ site.baseurl }}"/specification.html     " class="btn">THE SPECIFICATION</a>
+      <a href={{ site.baseurl }}"/getting_started.html   " class="btn">GETTING STARTED</a>
+      <a href={{ site.baseurl }}"/get_involved.html      " class="btn">GET INVOLVED</a>
+      <a href={{ site.baseurl }}"/acknowledgements.html  " class="btn">ACKNOWLEDGMENTS</a>
     </header>
 
     <main id="content" class="main-content" role="main">
