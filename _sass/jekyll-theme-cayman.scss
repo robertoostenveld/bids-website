@@ -32,6 +32,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
+  background-color: $body-bg-color;
 }
 
 #skip-to-content {
@@ -109,7 +110,10 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  // background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-image: url("/assets/img/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
 
   @include large {
     padding: 5rem 6rem;
@@ -182,7 +186,7 @@ a {
     padding: 2rem 1rem;
     font-size: 1rem;
   }
-  
+
   kbd {
     background-color: #fafbfc;
     border: 1px solid #c6cbd1;
