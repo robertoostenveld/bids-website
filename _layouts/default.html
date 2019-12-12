@@ -49,8 +49,8 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h1 class="project-name">{{ site.title | default: page.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: page.description | default: site.github.project_tagline }}</h2>
       <a href={{ site.baseurl }}/index.html class="btn">ABOUT</a>
       <a href={{ site.baseurl }}/benefits.html class="btn">BENEFITS</a>
       <a href={{ site.baseurl }}/specification.html class="btn">THE SPECIFICATION</a>
