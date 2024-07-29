@@ -1,4 +1,0 @@
-- Number of affiliations: 154
-- Number of countries: 24
-- Number of contributors without affiliation: 171
-- Number of unknown affiliations: 0
