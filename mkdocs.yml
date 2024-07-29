@@ -2,6 +2,8 @@ site_name: The Brain Imaging Data Structure (BIDS)
 
 nav:
   - About: index.md
+  - Blog:
+    - blog/index.md
   - Standards:
     - standards/index.md
     - BIDS Specification:
@@ -39,23 +41,6 @@ nav:
         - standards/bids_app_specification/specification/outputs.md
         - standards/bids_app_specification/specification/user_interface.md
         - standards/bids_app_specification/specification/release_notes.md
-  - Tools:
-    - tools/index.md
-    - tools/validator.md
-    - tools/bids_apps.md
-    - tools/others.md
-    - Converters:
-      - tools/converters/index.md
-      - tools/converters/mri_and_pet.md
-      - tools/converters/meeg.md
-      - tools/converters/physio.md
-      - tools/converters/others.md
-  - Collaboration: 
-    - collaboration/index.md
-    - collaboration/code_of_conduct.md
-    - collaboration/governance.md
-    - collaboration/contributors.md
-    - collaboration/acknowledgments.md
   - Getting Started:
     - getting_started/index.md
     - Folders and Files:
@@ -82,15 +67,19 @@ nav:
         - getting_started/tutorials/conversion/mri.md
         - getting_started/tutorials/conversion/pet.md
         - getting_started/tutorials/conversion/ieeg.md
+  - Tools:
+    - tools/index.md
+    - tools/validator.md
+    - tools/bids_apps.md
+    - tools/others.md
+    - Converters:
+      - tools/converters/index.md
+      - tools/converters/mri_and_pet.md
+      - tools/converters/meeg.md
+      - tools/converters/physio.md
+      - tools/converters/others.md
   - Datasets:
     - datasets/index.md
-  - Extensions:
-    - extensions/index.md
-    - extensions/intro.md
-    - extensions/beps.md
-    - extensions/guide.md
-    - extensions/general_guidelines.md
-    - extensions/submission.md
   - FAQ:
     - faq/index.md
     - faq/general.md
@@ -99,14 +88,25 @@ nav:
     - faq/phenotype.md
     - faq/bids_extensions.md
     - faq/bids_apps.md
-  - Blog:
-    - blog/index.md
+  - Collaboration: 
+    - collaboration/index.md
+    - collaboration/code_of_conduct.md
+    - collaboration/governance.md
+    - collaboration/contributors.md
+    - collaboration/acknowledgments.md
+  - Extensions:
+    - extensions/index.md
+    - extensions/intro.md
+    - extensions/beps.md
+    - extensions/guide.md
+    - extensions/general_guidelines.md
+    - extensions/submission.md
   - Impact: 
     - impact/index.md
-  - Contact: 
-    - contact/index.md
   - Merchandise: 
     - merch/index.md
+  - Contact: 
+    - contact/index.md
 
 
 theme:
